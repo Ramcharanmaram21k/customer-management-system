@@ -1,74 +1,66 @@
-Customer Management System
-This is a full-stack web application for managing customers and their addresses, built with React (frontend) and Node.js/Express with SQLite (backend).
+<img width="1710" height="949" alt="Screenshot 2025-09-02 at 7 05 32 PM" src="https://github.com/user-attachments/assets/a3485cb1-bdf5-464f-83d0-4f106d851c82" />
 
-Features
-Customer Management: Perform CRUD (Create, Read, Update, Delete) operations on customers.
 
-Address Management: Link and manage addresses for each customer.
 
-Search Functionality: Quickly find customers by name or location.
 
-Responsive UI: The user interface is built with Material-UI components to be responsive on different devices.
+# Customer Management System
 
-API: A backend API handles data persistence using a SQLite database.
+A full-stack web application for managing customers and their addresses.  
+Built with React (frontend) and Node.js/Express with SQLite (backend).
 
-Project Structure
-/frontend: Contains the React application code.
+---
 
-/backend: Contains the Node.js Express API and database integration.
+## Features
 
-Requirements
-Node.js (v14+ recommended)
+- Customer CRUD operations (Create, Read, Update, Delete)
+- Address management linked to customers
+- Search customers by name or location
+- Responsive UI with Material-UI components
+- Backend API with SQLite database persistence
 
-npm or yarn
+---
 
-SQLite3 (included as an npm dependency)
+## Project Structure
 
-A modern web browser
+- `/frontend`: React app source code  
+- `/backend`: Node.js Express API and database integration
 
-Installation
-Clone the repository:
+---
 
-git clone https://github.com/Ramcharanmaram21k/customer-management-system.git
-cd customer-management-system
-Install backend dependencies:
+## Requirements
 
-cd backend
-npm install
-Install frontend dependencies:
+- Node.js (v14+ recommended)  
+- npm or yarn  
+- SQLite3 (included via npm dependencies)  
+- A modern web browser
 
-cd ../frontend
-npm install
-Running Locally
-Start the backend server:
+---
 
-cd backend
+## Installation
+
+1. Clone the repository:
+2. git clone https://github.com/Ramcharanmaram21k/customer-management-system.git
+3. cd customer-management-system
+
+
+
+2. Install dependencies for backend:
+3. cd backend
+4. npm install
+
+
+3. Install dependencies for frontend:
+  - cd ../frontend
+  - npm install
+
+
+Backend will run on `http://localhost:5000` (or configured port).
+
+2. Start frontend development server:
+cd frontend
 npm start
-The backend will run at http://localhost:5000.
 
-Start the frontend server:
 
-cd ../frontend
-npm start
-The frontend will run at http://localhost:3000.
 
-Access http://localhost:3000 in your browser to use the application.
 
-Deployment
-Frontend: Can be deployed on services like Vercel.
 
-Backend: Can be deployed on services like Render, Heroku, or Railway.
-
-Note: You must update the frontend's API base URL to point to your deployed backend.
-
-Environment Variables
-Create .env files in both the frontend and backend directories to manage environment-specific settings.
-
-Contributing
-Contributions are welcome. Feel free to open issues or submit pull requests for any improvements.
-
-License
-Specify your project's license here (e.g., MIT).
-
-Contact
-For any questions, contact Ramcharan Maram at [your email].
